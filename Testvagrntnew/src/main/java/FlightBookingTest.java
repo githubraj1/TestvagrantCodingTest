@@ -40,7 +40,7 @@ public class FlightBookingTest {
 
         waitFor(2000);
         
-        driver.findElement(By.id("DepartDate")).sendKeys("Fri, 7 Jun, 2019");
+        driver.findElement(By.id("DepartDate")).sendKeys("Fri, 14 Jun, 2019");
         driver.findElement(By.id("ToTag")).click();
 
         //all fields filled in. Now click on search
